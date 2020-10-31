@@ -1,0 +1,36 @@
+{
+    "name":                 "satiate",
+    "version":              "0.2.7",
+    "description":
+
+      "Optimized retrieval of a set of records from a Strata b-tree.",
+
+    "keywords":
+    [
+                            "btree", "leveldb", "levelup", "binary", "mvcc",
+                            "database", "json", "b-tree", "concurrent", "persistence"
+    ],
+    "author":               "Alan Gutierrez <alan@prettyrobots.com>",
+    "homepage":             "https://bigeasy.github.io/satiate",
+    "bugs":                 "https://github.com/bigeasy/satiate/issues",
+    "license":              "MIT",
+    "repository":
+    {
+                            "type": "git",
+                            "url": "bigeasy/satiate"
+    },
+    "dependencies":
+    {
+    },
+    "devDependencies":
+    {
+                            "advance":                      "3.0.0-alpha.3",
+                            "proof":                        "^9.0.2",
+                            "reciprocate":                  "0.0.1"
+    },
+    "main":                 "satiate",
+    "scripts":
+    {
+                            "test": "proof test/*.t.js"
+    }
+}
