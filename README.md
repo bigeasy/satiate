@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/bigeasy/satiate/branch/master/graph/badge.svg)](https://codecov.io/gh/bigeasy/satiate)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-An ordered, durable MVCC data store.
+Return a minimum size set of items from an MVCC iterator.
 
 | What          | Where                                         |
 | --- | --- |
