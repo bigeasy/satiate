@@ -1,6 +1,6 @@
 {
     "name":                 "satiate",
-    "version":              "0.0.0",
+    "version":              "0.0.1",
     "description":
 
       "Return a minimum size set of items from an MVCC iterator.",
