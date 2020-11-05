@@ -4,7 +4,7 @@ require('proof')(3, async okay => {
     const advance = require('advance')
 
     {
-        const advanced = advance.forward([[], [ 1, 2, 3 ], [ 4 ], [ 5 ], [ 6 ]])
+        const advanced = advance([[], [ 1, 2, 3 ], [ 4 ], [ 5 ], [ 6 ]])
         const iterator = satiate(advanced, 3)
         const gathered = [], trampoline = new Trampoline
         while (! iterator.done) {
@@ -17,7 +17,7 @@ require('proof')(3, async okay => {
     }
 
     {
-        const advanced = advance.forward([[ 1, 2 ]])
+        const advanced = advance([[ 1, 2 ]])
         const iterator = satiate(advanced, 3)
         const gathered = [], trampoline = new Trampoline
         while (! iterator.done) {
@@ -30,7 +30,7 @@ require('proof')(3, async okay => {
     }
 
     {
-        const advanced = advance.forward([[], []])
+        const advanced = advance([[], []])
         const iterator = satiate(advanced, 3)
         const gathered = [], trampoline = new Trampoline
         while (! iterator.done) {

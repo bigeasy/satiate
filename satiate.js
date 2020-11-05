@@ -2,6 +2,7 @@ module.exports = function (source, amount) {
     let got = []
     const iterator = {
         done: false,
+        type: source.type,
         next (trampoline, consume, terminator = iterator) {
             source.next(trampoline, items => {
                 if (got.length == 0) {
