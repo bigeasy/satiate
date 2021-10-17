@@ -1,6 +1,6 @@
 require('proof')(3, async okay => {
     const satiate = require('..')
-    const Trampoline = require('reciprocate')
+    const { Trampoline } = require('reciprocate')
     const advance = require('advance')
 
     {
